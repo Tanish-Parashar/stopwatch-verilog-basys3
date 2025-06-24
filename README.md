@@ -11,7 +11,6 @@ A modular Verilog project for building a stopwatch on the Basys 3 board. The des
 - Outputs on 4-digit **common-anode 7-segment display**
 - 4 cleanly separated Verilog modules: `clk_divider`, `control_unit`, `time_counter`, `bcd_to_7seg`
 - Multiplexing logic to switch between 4 digits
-- Designed for **Basys 3 Rev B**
 
 ---
 
@@ -19,11 +18,6 @@ A modular Verilog project for building a stopwatch on the Basys 3 board. The des
 
 - 🧠 **Basys 3 FPGA Board**
 - 🧵 Vivado 2020.2+ or later
-
----
-
-## 📂 Project Structure
-
 
 ---
 
@@ -40,8 +34,6 @@ A modular Verilog project for building a stopwatch on the Basys 3 board. The des
 ---
 
 ## 📌 Basys 3 Connections (XDC Mapping)
-
-🧾 You can find the full `.xdc` file in `/constraints/basys3_constraints.xdc`
 
 | **Signal**     | **Port in Code** | **Basys 3 Pin** | **Description**       |
 |----------------|------------------|------------------|------------------------|
@@ -62,8 +54,6 @@ A modular Verilog project for building a stopwatch on the Basys 3 board. The des
 | Digit Select 3 | `an[3]`          | W4               | Leftmost digit         |
 
 ✅ All I/O standards are `LVCMOS33`  
-📁 `.xdc` is located here → [`constraints/basys3_constraints.xdc`](./constraints/basys3_constraints.xdc)
-
 ---
 
 ## 🧠 Block Diagram (Workflow)
