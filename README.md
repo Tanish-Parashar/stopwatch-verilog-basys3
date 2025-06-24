@@ -1,5 +1,20 @@
-# stopwatch-verilog-basys3
-A simple stopwatch built in Verilog for the Basys 3 FPGA board with start, stop, reset, and LED blink functionality. This stopwatch is a component of a larger digital clock system project.
+# ⏱️ Basys 3 Stopwatch using Verilog
+
+This project is a **digital stopwatch implemented in Verilog HDL** on the **Basys 3 FPGA development board**. It supports start, stop, and reset functionality, and includes a blinking LED indicator. The stopwatch is part of a larger **digital clock system** and is fully modular, with each function handled by a separate Verilog module.
+
+---
+
+## 🔧 Features
+- Real-time stopwatch with 1-second resolution
+- Start, stop, and reset input control
+- LED blink during active count
+- Output shown on 4-digit 7-segment display
+- Modular and testbench-friendly Verilog code
+
+---
+
+## 🧩 Project Structure
+
 
 ---
 
