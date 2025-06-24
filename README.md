@@ -85,3 +85,9 @@ A modular Verilog project for building a stopwatch on the Basys 3 board. The des
       seg[6:0]  an[3:0]
              |
      [ 7-Segment Display ]
+
+
+
+### 🎥 Demo Video
+
+[Click here to watch demo](./assets/demo.mp4)
