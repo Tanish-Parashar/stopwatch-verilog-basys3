@@ -55,7 +55,11 @@ A modular Verilog project for building a stopwatch on the Basys 3 board. The des
 
 ✅ All I/O standards are `LVCMOS33`  
 ---
+### 🎬 Demo Video
 
+📽️ [Click here to watch demo](./assets/demo.mp4)
+
+ 
 ## 🧠 Block Diagram (Workflow)
 
 ```text
@@ -88,6 +92,3 @@ A modular Verilog project for building a stopwatch on the Basys 3 board. The des
 
 
 
-### 🎥 Demo Video
-
-[Click here to watch demo](./assets/demo.mp4)
